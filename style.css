@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Akshar', sans-serif;
+    margin: 0 50px;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+#posts {
+    width: 400px;
+}
+
+#posts div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options {
+    display: flex;
+    gap: 10px;
+
+}
+
+#msg {
+    height: 15px;
+    color: red;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+i {
+    cursor: pointer;
+}
+
+.task {
+    margin: 2px;
+}
+
